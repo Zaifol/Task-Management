@@ -6,7 +6,7 @@
     </header>
 
     <section class="mt-5">
-          <div class="container form-control fw-bold">Register
+          <div class="container form-control fw-bold">
             <div class="mt-3">
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Full Name</label>
@@ -24,7 +24,7 @@
                     <label for="exampleFormControlInput1" class="form-label">Password</label>
                     <input type="password" value="<?= $password ?> "class="form-control" id="exampleFormControlInput1" placeholder="Please enter your password">
                   </div>
-                  <button type="button" class="btn-primary btn">Submit</button>
+                  <a href="dashboard" class="btn-primary btn">Submit</a>
             </div>
           </div>
 
